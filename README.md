@@ -35,7 +35,28 @@ To follow what I have done, you'll be needing the following
 This is what you should aim for in this section
 ![wemost setup](images/PIE_wemos_setup.PNG)
 
-Your servo, as well as my own, will not look like the one on the picture, it is simply there to illustrate, as there is not one who looks like the one we are going to use, in the [Fritzing](http://fritzing.org/home/) program which I used to make the schematic. 
+##### Disclaimer
+ - Your servo, as well as my own, will not look like the one on the picture, it is simply there to illustrate, as there is not one who looks like the one we are going to use, in the [Fritzing](http://fritzing.org/home/) program which I used to make the schematic. That also means that the servo'scable colors does not match entirely with reality.
+Hopefully any confusion cause by this, will go away when pictures of the real prototype comes into play.
+
+I'll start by explaning the cables, and their usage.
+(bear in mind that on the picture, there is only shown 6 cables attached to the breadboard, though I said we would need 8, this is not a mistake, and I will explain why later)
+
+Black cable -> The black cable is a ground extension cable. It allows for conversion of 1 ground (G) pin into a row of ground pins. All pins in the same row as the black, and continued down along the side of the wemos, becomes ground, this is necessary because we need a ground for both our servo, and our button.
+
+Red cable -> The red cable is the power cable, going from the 5V (5 Volt) pin on wemos to the servos red cable.
+Giving the servo electrical power.
+
+Brown cable -> The brown cable is the ground cable, going from the 2nd most outer nr. 4 pin, to the servos brown.
+
+Orange cable -> The orange cable is the signal cable, going from the D4 pin (Wemos D4), to the servos orange.
+*( If you stop here, you'll be having a working servo )*
+
+Purple cable - The purple cable is the ground, going from the 2nd most outer nr. 6 pin, to the buttons NO "pin".
+
+Grey cable- The grey cable is the signal, going from the D6 pin (Wemos D6), to the nuttons C "pin".
+*( Now both your servo, and button should be working )*
+
 
 
 
