@@ -29,11 +29,13 @@ To follow what I have done, you'll be needing the following
 * Access to [makercase.com](http://www.makercase.com/) - To design your own case
 * Access to Arduino
 
+
 ### Setting up
-- #### Breadboard, wemos, servo, button and cables
+- Breadboard, wemos, servo, button and cables
 This is what you should aim for in this section
 ![wemost setup](images/PIE_wemos_setup.PNG)
 
+Your servo, as well as my own, will not look like the one on the picture, it is simply there to illustrate, as there is not one who looks like the one we are going to use, in the [Fritzing](http://fritzing.org/home/) program which I used to make the schematic. 
 
 
 
