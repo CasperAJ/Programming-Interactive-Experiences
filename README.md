@@ -52,12 +52,12 @@ Brown cable -> The brown cable is the ground cable, going from the 2nd most oute
 Orange cable -> The orange cable is the signal cable, going from the D4 pin (Wemos D4), to the servos orange.
 *( If you stop here, you'll be having a working servo )*
 
-Purple cable - The purple cable is the ground, going from the 2nd most outer nr. 6 pin, to the buttons NO "pin".
+Purple cable -> The purple cable is the ground, going from the 2nd most outer nr. 6 pin, to the buttons NO "pin".
 
-Grey cable- The grey cable is the signal, going from the D6 pin (Wemos D6), to the nuttons C "pin".
+Grey cable -> The grey cable is the signal, going from the D6 pin (Wemos D6), to the nuttons C "pin".
 *( Now both your servo, and button should be working )*
 
-
+### Coding
 
 
 ### End result
