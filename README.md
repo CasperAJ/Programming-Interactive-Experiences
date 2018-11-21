@@ -2,6 +2,8 @@
 
 This project were made for the educational programming class "Programming Interactive Experiences" as part of Computer Science & Informatics, hence the name.
 
+***
+
 ## Vision 
 The projects vision is to create "seamless" way to unlock your door through you mobile phone, purely based on it's presence.
 
@@ -11,6 +13,7 @@ Hence it would be nice if any door you come near, simply unlocks for you, either
 I will show you, how I have managed to make a **prototype** of this magical wonder.
 If you wonna see how the end result looks like, then click **[HERE](#end-result)**
 
+***
 
 ## What you need
 To follow what I have done, you'll be needing the following
@@ -29,6 +32,7 @@ To follow what I have done, you'll be needing the following
 * Access to [makercase.com](http://www.makercase.com/) - To design your own case
 * Access to Arduino
 
+***
 
 ### Setting up
 - Breadboard, wemos, servo, button and cables
@@ -57,9 +61,27 @@ Purple cable -> The purple cable is the ground, going from the 2nd most outer nr
 Grey cable -> The grey cable is the signal, going from the D6 pin (Wemos D6), to the nuttons C "pin". 
 *( Now both your servo, and button should be working )*
 
+
+#### The interface between lock and servo
+With your servo you'll most likely have gotten a small back of different kinds of attachments, small plates and arms, as well as screws and rubber disks, I have used the biggest one that came with it, for creating one of the core parts in the project, and the way that the servo can turn the locking bolt.
+
+The 3D printed mounting device, which holds onto the locking bolt, and connects the servo, turning the servos rotation into an action that can unlock a door.
+I've glued it onto the black disk which sits/grips onto the head of the servo.
+Get the center of the disk and the center of your locking mount, to be synchronised for the best, and smoothes performance.
+If it's a little off, it won't ruin everything.
+
+Your bolt might differ from my own, so you'll have to do your own measurement and modeling to get it right.
+But here is a picture of my solution.
+[Locking mount](images/PIE_bolt_mount.jpeg)
+
+***
+
 ### Coding
 
 
 ### End result
 
 **[Back to the top](#vision)**
+![](images/PIE_1.jpeg)
+![](images/PIE_4.jpeg)
+![](images/PIE_7.jpeg)
