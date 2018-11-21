@@ -10,7 +10,17 @@ Hence it would be nice if any door you come near, simply unlocks for you, either
 
 I will show you, how I have managed to make a **prototype** of this magical wonder.
 
-## what you need
+
+
+## What you need
 To follow what I have done you will be needing the following
 (similar materials and items can be used ofcause, but may not work entirely as mine)
 * 1 Wemos with a wifi chip - I'll be using a model ESP 8266 ( the important part is wifi capabilities)
+
+
+
+
+
+
+
+## End result
