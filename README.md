@@ -27,9 +27,12 @@ To follow what I have done, you'll be needing the following
 * Access to a sodder station  - I'll be asuming that you know how to sodder
 * Access to a drill           - Either hand or stationary should do
 * Access to [makercase.com](http://www.makercase.com/) - To design your own case
+* Access to Arduino
 
-
-### Setting up Wemos, breadboard and cables
+### Setting up
+- #### Breadboard, wemos, servo, button and cables
+This is what you should aim for in this section
+![wemost setup](images/PIE_wemos_setup.PNG)
 
 
 
