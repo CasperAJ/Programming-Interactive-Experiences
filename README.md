@@ -72,7 +72,7 @@ If it's a little off, it won't ruin everything.
 
 Your bolt might differ from my own, so you'll have to do your own measurement and modeling to get it right.
 But here is a picture of my solution.
-[Locking mount image](#PIE_bolt_mount)
+[Locking mount image](#locking-mount)
 
 ***
 
@@ -85,4 +85,5 @@ But here is a picture of my solution.
 ![](images/PIE_1.jpeg)
 ![](images/PIE_4.jpeg)
 ![](images/PIE_7.jpeg)
-![#PIE_bolt_mount](images/PIE_bolt_mount.jpeg)
+### Locking mount
+![](images/PIE_bolt_mount.jpeg)
