@@ -54,7 +54,7 @@ Orange cable -> The orange cable is the signal cable, going from the D4 pin (Wem
 
 Purple cable -> The purple cable is the ground, going from the 2nd most outer nr. 6 pin, to the buttons NO "pin".
 
-Grey cable -> The grey cable is the signal, going from the D6 pin (Wemos D6), to the nuttons C "pin".
+Grey cable -> The grey cable is the signal, going from the D6 pin (Wemos D6), to the nuttons C "pin". 
 *( Now both your servo, and button should be working )*
 
 ### Coding
