@@ -99,11 +99,27 @@ As some parts of my project is build on another persons work, there will be plac
 My case have been cut in 3mm wood plates, with 5mm fingers/teeths.
 There isn't much more to say about the box itself.
 There are 2 holes in it. 1 for the lockbolt to stick through, and one for the power wemos powercable & the 2 cables for the button to go through.
-You can find my case schematic here: [Origional Schematic](schematics/OrigionalCaseSchematic.svg)
-You may need to convert it to a different file type, or make small changes to the boxs design, I did both myself.
-( If you need to do so, I suggest using [CoralDraw](https://www.coreldraw.com/en/free-trials/?topNav=en), it can both convert to a different file-type and make changes to the design )
-The case I'm using, has 1 change in it, I've added an additional oval hole, for easier mounting on the front. The schematic for that can you get here: [Updated Schematic](schematics/UpdatedCaseSchematic.svg)
 
+You can find my case schematic here: [Origional Schematic](schematics/OrigionalCaseSchematic.svg)
+You may need to convert it to a different file type, or make small changes to the boxs design, I did both myself.<br/>
+( If you need to do so, I suggest using [CoralDraw](https://www.coreldraw.com/en/free-trials/?topNav=en), it can both convert to a different file-type and make changes to the design )<br/>
+The case I'm using, has 1 change in it, I've added an additional oval hole, for easier mounting on the front. <br/>
+The schematic for that can you get here: [Updated Schematic](schematics/UpdatedCaseSchematic.svg)<br/>
+The 2 holes in the box should be in opposite "ends" of each other.
+
+***
+
+## Putting it all together
+If your wemos board has a tape buttom then you can stick it to the inside-top of the box. ( *Make sure your whole is in the right position so that the wemos power cable fits nicely through without having problems. I had a problem with my first prototype* ) Opposite of the oval hole in my schematic.<br/>
+Next up is to glue the Servo to the inside of the panel with the small circular hole. *** Remember to allign the Servos "knob" to fit with the lockbolt. E.g. mount the 3D printed lock mount for a better allignment ***
+<br/>
+Now you'll have to do a little dirty work. You'll need to find a drill that matches the screws in your lock, the lock you want to use the project on.
+<br/>
+Now you have to find a way to mark how far apart and at what height the screws are located, then drill the 2 holes around the oval hole in the panel. ( **A good way to check that the panel fits well onto the door, is simply to screw that single panel up ontot the door** )
+<br/>
+Now, if your cables are in place, then you can pretty much put the box together, to look at to make sure it all fits and is allignt nicely. If you want to test it right away, you can put it up on the door and hold it together with few rubberband.
+<br/>
+***! I suggest gluing the box together for a good solid build. However also I suggest letting the panel opposite of the one where the lockbolt is gonna go through, and one of the side panels remain unglued for an easier un/mounting to the door !***
 
 ### End result
 
