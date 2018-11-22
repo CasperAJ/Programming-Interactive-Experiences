@@ -78,12 +78,31 @@ But here is a picture of my solution.
 
 ### Code
 If you have some experience with programming, most of this code will probably be self-explanatory for you, but if you don't, then fear not, I've commented my part of the code, to a degree that I believe make it understandable to everyone, with just a slight experience with programming.
-I suggest a reading of the files in the following order:
+<br/>I suggest a reading of the files in the following order:
  * [Functions.ino](main/functions.ino)
  * [Defines.h](main/defines.h)
  * [Main.ino](main/main.ino)
  * [Sniffer.ino](main/sniffer.ino)
 
+As some parts of my project is build on another persons work, there will be places containing this kind of blocks
+  <br/>///////////////////////////////////////////////////////////////////////////////
+  <br/>// ----------------------- My code -----------------------
+<br/>
+           <br/>This means that the code within the blocks is my work, and that outside of it, is not
+<br/>
+  <br/>// ----------------------- My code -----------------------
+  <br/>///////////////////////////////////////////////////////////////////////////////
+
+***
+
+### Making a box for it all
+My case have been cut in 3mm wood plates, with 5mm fingers/teeths.
+There isn't much more to say about the box itself.
+There are 2 holes in it. 1 for the lockbolt to stick through, and one for the power wemos powercable & the 2 cables for the button to go through.
+You can find my case schematic here: [Origional Schematic](schematic/OrigionalCaseSchematic.svg)
+You may need to convert it to a different file type, or make small changes to the boxs design, I did both myself.
+( If you need to do so, I suggest using [CoralDraw](https://www.coreldraw.com/en/free-trials/?topNav=en), it can both convert to a different file-type and make changes to the design )
+The case I'm using, has 1 change in it, I've added an additional oval hole, for easier mounting on the front. The schematic for that can you get here: [Updated Schematic](schematic/UpdatedCaseSchematic.svg)
 
 
 ### End result
