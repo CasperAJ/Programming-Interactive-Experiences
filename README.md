@@ -122,6 +122,8 @@ Now, if your cables are in place, then you can pretty much put the box together,
 <br/>
 ***! I suggest gluing the box together for a good solid build. However also I suggest letting the panel opposite of the one where the lockbolt is gonna go through, and one of the side panels remain unglued for an easier un/mounting to the door !***
 
+***
+
 ## Finishing
 Now you should have something that looks identical, or closely the same, as what I have. ( You can comapre with the images below )
 Now your only thing is to test that everything still works, and then screw it up on the door, and then you are good to go.
