@@ -76,7 +76,14 @@ But here is a picture of my solution.
 
 ***
 
-### Coding
+### Code
+If you have some experience with programming, most of this code will probably be self-explanatory for you, but if you don't, then fear not, I've commented my part of the code, to a degree that I believe make it understandable to everyone, with just a slight experience with programming.
+I suggest a reading of the files in the following order:
+ * [Functions.ino](main/functions.ino)
+ * [Defines.h](main/defines.h)
+ * [Main.ino](main/main.ino)
+ * [Sniffer.ino](main/sniffer.ino)
+
 
 
 ### End result
