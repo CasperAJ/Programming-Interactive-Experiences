@@ -92,7 +92,8 @@ As some parts of my project is build on another persons work, there will be plac
 <br/>
   <br/>// ----------------------- My code -----------------------
   <br/>///////////////////////////////////////////////////////////////////////////////
-
+  
+I suggest that you test out the funtionallity before you continue, to make sure it works, and works as you want it to.
 ***
 
 ### Making a box for it all
@@ -120,6 +121,10 @@ Now you have to find a way to mark how far apart and at what height the screws a
 Now, if your cables are in place, then you can pretty much put the box together, to look at to make sure it all fits and is allignt nicely. If you want to test it right away, you can put it up on the door and hold it together with few rubberband.
 <br/>
 ***! I suggest gluing the box together for a good solid build. However also I suggest letting the panel opposite of the one where the lockbolt is gonna go through, and one of the side panels remain unglued for an easier un/mounting to the door !***
+
+## Finishing
+Now you should have something that looks identical, or closely the same, as what I have. ( You can comapre with the images below )
+Now your only thing is to test that everything still works, and then screw it up on the door, and then you are good to go.
 
 ### End result
 
