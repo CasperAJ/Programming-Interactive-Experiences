@@ -18,29 +18,32 @@ static void showMetadata(SnifferPacket *snifferPacket) {
   // ----------------------- My code -----------------------
 
 
-  char addr[] = "00:00:00:00:00:00";
-  getMAC(addr, snifferPacket->data, 10);
+  char addr[] = "00:00:00:00:00:00"; // Creates a placeholder for the Mac address
+  getMAC(addr, snifferPacket->data, 10); // Gets the Mac address and stuff it into addr
 
   //Serial.println(addr);
 
-  String sniffedMac = addr;
-  String myMac = findAddr;
+  String sniffedMac = addr; // Makes addr into the sniffedMac address
+  String myMac = findAddr; // The Mac addr for my test Phone or your target phone
+  // Replace findAddr with your phones mac
 
-  if (sniffedMac != myMac && phoneLastFoundTimer > 0)
+  if (sniffedMac != myMac && phoneLastFoundTimer > 0) // Check if the sniffed mac is not found and it has not been found for longer than the LastFoundTimer allows
   {
-    Serial.println("Phone not fount anymore");
+    Serial.println("Phone not found anymore"); //If not found it tells you
   }
 
     // if the phone Mac is not found after reset timer has expired, then you have left the house and the door should be locked
     if (sniffedMac != myMac && phoneLastFoundTimer > 0 && (millis() - phoneLastFoundTimer) >= (resetTimer * desiredResetCount) )
     {
-      if (servo.read() < lockDegree)
+      if (servo.read() < lockDegree) // If the locks degree is less than the locking degree
       {
+        // Then say phone not found, lock the door and set timer to 0
         Serial.println("Phone not found");
         Lock(true);
         phoneLastFoundTimer = 0;
       }
     }
+  
     // if the phone mac is still found after the resetTimer and the timer has a value above 0, then reset the timer to now
     // maintain status that the phone has not left the house
     if (sniffedMac == myMac && phoneLastFoundTimer > 0 && (millis() - phoneLastFoundTimer) >= resetTimer)
@@ -49,19 +52,21 @@ static void showMetadata(SnifferPacket *snifferPacket) {
       phoneLastFoundTimer = millis();
     }
 
-    if (sniffedMac == myMac && phoneLastFoundTimer == 0)
+    if (sniffedMac == myMac && phoneLastFoundTimer == 0) // If the right Mac is found and the last time it was found is 0 sec
     {
       phoneLastFoundTimer = millis();
       Unlock(true);
-
+      // Then set the LastFound to now, and unlock the door, followed by pring out timer and mac
       Serial.print(phoneLastFoundTimer);
       Serial.print(" - found Phone - ");
       Serial.println( sniffedMac );
     }
-  }
-
+  
+  
   // ----------------------- My code -----------------------
   ///////////////////////////////////////////////////////////////////////////////
+  }
+
 
   /**
      Callback for promiscuous mode
